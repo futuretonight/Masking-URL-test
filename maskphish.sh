@@ -8,7 +8,8 @@ url_checker() {
         fi
     fi
 }
-
+echo ""
+echo ""
 echo -e " \e[92m   ╔═══════════════════════════════════════════════════════════╗ "
 echo -e " \e[91m   ║ \e[93m ███    ███  █████  ███████ ██   ██ ██ ███    ██  ██████  \e[91m║ "
 echo -e " \e[91m   ║ \e[93m ████  ████ ██   ██ ██      ██  ██  ██ ████   ██ ██       \e[91m║"
@@ -17,18 +18,24 @@ echo -e " \e[91m   ║ \e[93m ██  ██  ██ ██   �
 echo -e " \e[91m   ║ \e[93m ██      ██ ██   ██ ███████ ██   ██ ██ ██   ████  ██████  \e[91m║ "
 echo -e " \e[96m   ╚═══════════════════════════════════════════════════════════╝ "
 
-echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
+echo ""
+echo ""
+
+echo -e " \e[1m  \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
+echo ""
 echo -e " \e[1m         \e[25m \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite \e[1;91m= \e[4m\e[1;97mwww.OnlineHacking-net.com\e[24m   "
+echo ""
 echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mTelegram \e[5m\e[1;91m= \e[1;97m@OnlineHacking   \e[93m   "
 
 echo ""
 echo ""
 
-echo -e " \e[35m     ╔═╗┌┐┌┬  ┬┌┐┌┌─┐  ╦ ╦┌─┐┌─┐┬┌─┬┌┐┌┌─┐  "
-echo -e " \e[35m     ║ ║││││  ││││├┤   ╠═╣├─┤│  ├┴┐│││││ ┬  "
-echo -e " \e[35m     ╚═╝┘└┘┴─┘┴┘└┘└─┘  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘  "
+echo -e " \e[35m                    ╔═╗┌┐┌┬  ┬┌┐┌┌─┐  ╦ ╦┌─┐┌─┐┬┌─┬┌┐┌┌─┐  "
+echo -e " \e[35m                    ║ ║││││  ││││├┤   ╠═╣├─┤│  ├┴┐│││││ ┬  "
+echo -e " \e[35m                    ╚═╝┘└┘┴─┘┴┘└┘└─┘  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘  "
 
-
+echo ""
+echo ""
 
 echo -n "Paste Phishing URL here (with http or https): "
 read phish
