@@ -22,46 +22,31 @@ Telegram: <a href="https://t.me/OnlineHacking">@OnlineHacking</a>
 
 ### ☣️ Installation and Usage Guide
 ```
-$ apt-get update -y
+apt-get update
 ```
 ```
-$ apt-get upgrade -y
+apt-get upgrade
 ```
 ```
-$ pkg install python -y 
+pkg install git
 ```
 ```
-$ pkg install python2 -y
+git clone https://github.com/OnlineHacKing/Masking-URL
 ```
 ```
-$ pkg install git -y
+ls
 ```
 ```
-$ pip install requests
+cd Masking-URL
 ```
 ```
-$ ls
+chmod +x *
 ```
 ```
-$ git clone https://github.com/OnlineHacKing/IpDorp.git
-```
-```
-$ ls
-```
-```
-$ cd IpDorp
-```
-```
-$ ls
-```
-```
-$ python IpDorp.py -v 
+bash Masking-OH.sh
 ```
 
-### Update Tool
-```
-$ rm -rf 'Voice-Welcome' && pkg install mpv -y && git clone https://github.com/OnlineHacKing/Voice-Welcome.git && cd Voice-Welcome && chmod +x * && sh install.sh && exit
-```
+
 
 ## Video Tutorials
 
