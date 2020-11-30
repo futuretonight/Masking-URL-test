@@ -9,22 +9,32 @@ url_checker() {
     fi
 }
 
-echo -e "\n\e[1;31;42m######┌──────────────────────────┐##### \e[0m"
-echo -e "\e[1;31;42m######│▙▗▌      ▌  ▛▀▖▌  ▗    ▌  │##### \e[0m"
-echo -e "\e[1;31;42m######│▌▘▌▝▀▖▞▀▘▌▗▘▙▄▘▛▀▖▄ ▞▀▘▛▀▖│##### \e[0m"
-echo -e "\e[1;31;42m######│▌ ▌▞▀▌▝▀▖▛▚ ▌  ▌ ▌▐ ▝▀▖▌ ▌│##### \e[0m"
-echo -e "\e[1;31;42m######│▘ ▘▝▀▘▀▀ ▘ ▘▘  ▘ ▘▀▘▀▀ ▘ ▘│##### \e[0m"
-echo -e "\e[1;31;42m######└──────────────────────────┘##### \e[0m \n"
-echo -e "\e[40;38;5;82m Please Visit \e[30;48;5;82m https://www.kalilinux.in \e[0m"
-echo -e "\e[30;48;5;82m    Copyright \e[40;38;5;82m   JayKali \e[0m \n\n"
-echo -e "\e[1;31;42m ### Phishing URL ###\e[0m \n"
+
+
+
+echo -e" \e[31m     ███    ███  █████  ███████ ██   ██ ██ ███    ██  ██████   "
+echo -e" \e[32m     ████  ████ ██   ██ ██      ██  ██  ██ ████   ██ ██       "
+echo -e" \e[33m     ██ ████ ██ ███████ ███████ █████   ██ ██ ██  ██ ██   ███  "
+echo -e" \e[34m     ██  ██  ██ ██   ██      ██ ██  ██  ██ ██  ██ ██ ██    ██  "
+echo -e" \e[35m     ██      ██ ██   ██ ███████ ██   ██ ██ ██   ████  ██████   "
+
+echo -e "   \e[93m      ___       _ _                               _    _             
+echo -e "   \e[93m      /___\_ __ | (_)_ __   ___    /\  /\__ _  ___| | _(_)_ __   __ _    "
+echo -e "   \e[93m     //  // '_ \| | | '_ \ / _ \  / /_/ / _` |/ __| |/ / | '_ \ / _` |    " 
+echo -e "   \e[93m    / \_//| | | | | | | | |  __/ / __  / (_| | (__|   <| | | | | (_| |   " 
+echo -e "   \e[93m    \___/ |_| |_|_|_|_| |_|\___| \/ /_/ \__,_|\___|_|\_\_|_| |_|\__, |    " 
+echo -e "   \e[93m                                                                 |___/    "
+
+
+
+
 echo -n "Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 short=$(curl -s https://da.gd/s/?url=${phish})
 shorter=${short#https://}
 echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
-echo 'Domain to mask the Phishing URL (with http or https), ex https://google.com, http
+echo 'Domain to mask the Phishing URL (with http or https), ex https://google.com , http
 ://anything.org) :'
 echo -en "\e[32m=>\e[0m "
 read mask
@@ -33,6 +43,6 @@ echo -e '\nType social engineering words:(like free-money, best-pubg-tricks)'
 echo -e "\e[31mDon't use space just use '-' between social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\nGenerating Masking OH Link...\n"
 final=$mask-$words@$shorter
-echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
