@@ -35,7 +35,7 @@ echo -e " \e[35m                    ║ ║││││  ││││├┤   �
 echo -e " \e[35m                    ╚═╝┘└┘┴─┘┴┘└┘└─┘  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘  "
 
 echo ""
-echo "\e[44m"
+echo "" \e[44m
 
 echo -n " Paste Phishing URL here (with http or https): "
 read phish
