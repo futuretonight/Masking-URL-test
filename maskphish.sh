@@ -30,14 +30,14 @@ echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mTelegram \e[5m\e[1
 echo ""
 echo ""
 
-echo -e " \e[35m                    ╔═╗┌┐┌┬  ┬┌┐┌┌─┐  ╦ ╦┌─┐┌─┐┬┌─┬┌┐┌┌─┐  "
-echo -e " \e[35m                    ║ ║││││  ││││├┤   ╠═╣├─┤│  ├┴┐│││││ ┬  "
-echo -e " \e[35m                    ╚═╝┘└┘┴─┘┴┘└┘└─┘  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘  "
+echo -e " \e[92m                    ╔═╗┌┐┌┬  ┬┌┐┌┌─┐  ╦ ╦┌─┐┌─┐┬┌─┬┌┐┌┌─┐  "
+echo -e " \e[92m                    ║ ║││││  ││││├┤   ╠═╣├─┤│  ├┴┐│││││ ┬  "
+echo -e " \e[92m                    ╚═╝┘└┘┴─┘┴┘└┘└─┘  ╩ ╩┴ ┴└─┘┴ ┴┴┘└┘└─┘  "
 
 echo ""
-echo "" \e[44m
+echo "" 
 
-echo -n " Paste Phishing URL here ( \e[32mwith http or https): "
+echo -n " Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 short=$(curl -s https://da.gd/s/?url=${phish})
