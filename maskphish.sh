@@ -21,9 +21,9 @@ echo -e " \e[96m   ╚═══════════════════�
 echo ""
 echo ""
 
-echo -e " \e[1m  \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
+echo -e " \e[1m         \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
 echo ""
-echo -e " \e[1m         \e[25m \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite \e[1;91m= \e[4m\e[1;97mwww.OnlineHacking-net.com\e[24m   "
+echo -e " \e[5m         \e[25m \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite \e[1;91m= \e[4m\e[1;97mwww.OnlineHacking-net.com\e[24m   "
 echo ""
 echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mTelegram \e[5m\e[1;91m= \e[1;97m@OnlineHacking   \e[93m   "
 
@@ -37,7 +37,7 @@ echo -e " \e[35m                    ╚═╝┘└┘┴─┘┴┘└┘└�
 echo ""
 echo ""
 
-echo -n "Paste Phishing URL here (with http or https): "
+echo -n " \e[44m Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 short=$(curl -s https://da.gd/s/?url=${phish})
