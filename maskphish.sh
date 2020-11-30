@@ -37,7 +37,7 @@ echo -e " \e[35m                    ╚═╝┘└┘┴─┘┴┘└┘└�
 echo ""
 echo ""
 
-echo -n " \e[44m Paste Phishing URL here (with http or https): "
+echo -e " \e[44m Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 short=$(curl -s https://da.gd/s/?url=${phish})
