@@ -66,7 +66,7 @@ bash Masking-OH.sh
 https://www.youtube.com/channel/UCwREEQuPIk7EtaRrZBVvDwg?view_as=subscriber&pbjreload=101
 
 ### Chekout our webite 
-www.onlinehacking-net.com
+www.onlinehacking.xyz
 
 # ■□■□■□■□■□■□ Warning □■□■□■□■□■□■
 
@@ -77,7 +77,7 @@ www.onlinehacking-net.com
 
 # ■□■□■□■□■□■□ Social Media □■□■□■□■□■□■
 
-Website :- http://www.onlinehacking-net.com
+Website :- http://www.onlinehacking.xyz
 
 YouTube Channel :- https://bit.ly/on9youtube
 
