@@ -45,6 +45,6 @@ echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, best
 echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
-echo -e "\nGenerating Masking Online Hacking Link...\n"
+echo -e "\n\e[95mGenerating Masking Online Hacking Link...\e[0m\n"
 final=$mask-$words@$shorter
-echo -e \e[95m "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
