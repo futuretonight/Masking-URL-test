@@ -1,4 +1,4 @@
-# Bash Script for Hide Phishing URL Created by KP
+# Bash Script for Hide Phishing URL Created by Suman Online Hacking
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
@@ -16,8 +16,8 @@ echo -e " \e[91m   ║ \e[93m ███    ███  █████  █
 echo -e " \e[91m   ║ \e[93m ████  ████ ██   ██ ██      ██  ██  ██ ████   ██ ██       \e[91m║"
 echo -e " \e[91m   ║ \e[93m ██ ████ ██ ███████ ███████ █████   ██ ██ ██  ██ ██   ███ \e[91m║ "
 echo -e " \e[91m   ║ \e[93m ██  ██  ██ ██   ██      ██ ██  ██  ██ ██  ██ ██ ██    ██ \e[91m║ "
-echo -e " \e[91m   ║ \e[93m ██      ██ ██   ██ ███████ ██   ██ ██ ██   ████  ██████  \e[91m║ "
-echo -e " \e[96m   ╚═══════════════════════════════════════════════════════════╝  \e[33mSUMAN V2.1 "
+echo -e " \e[91m   ║ \e[93m ██      ██ ██   ██ ███████ ██   ██ ██ ██   ████  ██████  \e[91m║ \e[33mSUMAN"
+echo -e " \e[96m   ╚═══════════════════════════════════════════════════════════╝  \e[33mV2.1 "
 echo ""
 echo ""
 echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube  \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
