@@ -40,16 +40,15 @@ echo "Processing and Modifing Phishing URL"
 echo ""
 short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
 shorter=${short#https://}
-echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
-echo 'Domain to mask the Phishing URL (with http or https), ex: https://google.com, http
-://anything.org) :'
+echo -e ""
+echo -e 'Domain to mask the Phishing URL \e[91m(Ex:\e[96m https://google.com , http://anything.org)\e[0m :'
 echo -en "\e[32m=>\e[0m "
 read mask
 url_checker $mask
-echo -e '\nType social engineering words:(like free-money, best-pubg-tricks)'
-echo -e "\e[31mDon't use space just use '-' between social engineering words\e[0m"
+echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, best-pubg-tricks)'
+echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
-echo -e "\nGenerating MaskPhish Link...\n"
+echo -e "\n\e[95mGenerating Masking Online Hacking Link...\e[0m\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
