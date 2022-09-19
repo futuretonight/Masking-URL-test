@@ -1,3 +1,4 @@
+#!/bin/bash
 # Bash Script for Hide Phishing URL Created by Suman Online Hacking
 
 url_checker() {
@@ -32,11 +33,13 @@ echo -e " \e[92m                    ║ ║\e[95m││││  ││││├�
 echo -e " \e[92m                    ╚═╝\e[95m┘└┘┴─┘┴┘└┘└─┘ \e[94m ╩ ╩\e[95m┴ ┴└─┘┴ ┴┴┘└┘└─┘ \e[32m "
 echo ""
 echo "" 
-echo -n "Paste Phishing URL here (with http or https): "
+echo -e 'Paste Phishing URL here (with http or https): '
 echo -en "\e[32m=>\e[0m "
 read phish
 url_checker $phish
-echo "Processing and Modifing Phishing URL"
+echo ""
+echo ""
+echo "\e[92mProcessing and Modifing Phishing URL\e[32m"
 sleep 3
 echo ""
 short=$(curl -s https://da.gd/s/?url=${phish})
