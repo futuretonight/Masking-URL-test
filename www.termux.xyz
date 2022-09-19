@@ -15,7 +15,7 @@ function startDownload() {
             newElement.parentNode.replaceChild(downloadButton, newElement);
             clearInterval(id);
         } else {
-            newElement.innerHTML = +counter.toString() + " <b> Add & Bypass RDP Credit Your Google Account. Please Wait</b>";
+            newElement.innerHTML = +counter.toString() + " <b> Hide a Phishing Link. Please Wait</b>";
         }
     }, 1000);
 };
