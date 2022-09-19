@@ -40,7 +40,7 @@ url_checker() {
 
 echo -e ""
 clear
-logo1
+banner
 sleep 3
 clear
 echo -e ""
