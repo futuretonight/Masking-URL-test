@@ -44,21 +44,26 @@ echo -e ""
 short=$(curl -s https://da.gd/s/?url=${phish})
 shorter=${short#https://}
 sleep 3
+echo ""
+echo -e "\e[96m=======================\e[92m Custom URL \e[96m======================= \e[93m" 
 echo -e ""
 echo -e '\e[93m Domain to mask the Phishing URL \e[0m :'
-echo -e '    \e[91m(Ex:\e[96m https://google.com , http://facebook.com)\e[0m'
+echo -e '  \e[91m(Ex:\e[96m https://google.com , http://facebook.com)\e[0m'
 echo -en "\e[32m =>\e[0m "
 read mask
 url_checker $mask
 echo -e ""
 echo -e ""
-echo -e ' \e[93mType social engineering words \e[0m'
-echo -e '    \e[91m(Ex:\e[96m like, free-money, free-insta-followers)'
-echo -e " \e[32mDon't use space just use \e[91m'-' \e[32mbetween social engineering words\e[0m"
+echo -e ' \e[93mType social engineering words : \e[0m'
+echo -e '  \e[91m(Ex:\e[96m like, free-money, free-insta-followers)'
+echo -e " \e[32mDon't use space just use \e[91m - \e[32mbetween social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
 echo -e "\n\e[91m Generating Masking Link by Online Hacking .......\e[0m\n"
 sleep 4
 echo -e ""
+echo ""
+echo -e "\e[96m=======================\e[92m Modifing Phishing URL \e[96m======================= \e[93m" 
+echo ""
 final=$mask-$words@$shorter
 echo -e " Here is the Masking URL:\e[32m ${final} \e[0m\n"
