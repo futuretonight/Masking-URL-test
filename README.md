@@ -126,7 +126,7 @@ bash Masking.sh
 
 ### 🎥 WATCH VIDEO 
 
-<p align="center"> <a href="https://play.onlinehacking.xyz/v/ZIwSEz"><img title="Made in INDIA" width="58%" src="https://www.onlinehacking.in/wp-content/uploads/2021/12/play-.webp"></a>
+<p align="center"> <a href="https://www.hacktube.xyz"><img title="Made in INDIA" width="58%" src="https://www.onlinehacking.in/wp-content/uploads/2021/12/play-.webp"></a>
 
 
 ### 📸 SCREENSHOTS [Termux]
@@ -135,11 +135,7 @@ bash Masking.sh
 <p align="center">
 <img width="40%" src="https://i.pinimg.com/564x/99/5e/4d/995e4dcb94133d3c74597bed932288fb.jpg"/>
 </p>
-<br>
-<p align="center">
-<img width="41%" src="https://i.pinimg.com/564x/b1/1f/76/b11f769cb43a768fcbdeb509477e7086.jpg"/>
-<img width="40%" src="https://i.pinimg.com/564x/8c/6e/b6/8c6eb6035fb6ba53deb1c47c77e0c6a0.jpg"/>
-</p>
+
 
 
 
