@@ -1,6 +1,32 @@
 #!/bin/bash
 # Bash Script for Hide Phishing URL Created by Suman Online Hacking
 
+echo ""
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
+sleep 4
+echo ""
+echo ""
+printf "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
+echo ""
+echo ""
+read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice \e[1;91m (Y/N) : \e[0m' option
+echo""
+echo""
+echo""
+
+if [[ $option == *'N'* ]]; then
+clear
+exit
+fi
+if [[ $option == *'n'* ]]; then
+clear
+exit
+fi
+
+echo ""
+clear
+
+
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
@@ -11,6 +37,9 @@ url_checker() {
 }
 
 echo -e ""
+clear
+logo1
+sleep 2
 clear
 echo -e ""
 echo -e " \e[92m   ╔═══════════════════════════════════════════════════════════╗ "
@@ -63,3 +92,46 @@ final=$mask-$words@$shorter
 echo -e " \e[91m[\e[92m★\e[91m] \e[93mYour Masking URL/Link:\e[32m ${final} \e[0m\n"
 echo -e ""
 echo -e ""
+
+
+
+
+## LOGO 1
+logo1() {
+#clolors
+white='\e[1;37m'
+green='\e[0;32m'
+blue='\e[1;34m'
+red='\e[1;31m'
+yellow='\e[1;33m' 
+echo ""
+banner() {
+echo -e ""
+echo -e "\e[95m 
+         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
+        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
+        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
+        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
+        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
+         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
+                                                            
+     ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
+     ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
+     ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
+     ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
+     ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
+     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  \e[95;1m \e[0m\n"
+  echo -e""    
+  echo -e $'\e[1;33m\e[0m\e[1;31m    ██████████\e[0m'"\e[1;37m██████████"'\e[1;33m\e[0m\e[0;32m██████████\e[0m' '\e[1;32m\e[0m\e[1;32m Hide Phishing URL Tool \e[0m''\e[1;37m\e[0m\e[1;37m [v 2.2] \e[0m'                                       
+  echo -e ""
+   echo -e $'\e[1;33m\e[0m\e[1;33m  [\e[0m\e[1;32m Follow Github :- \e[36mhttps://github.com/OnlineHacKing/Masking-UR \e[0m\e[1;32m\e[0m\e[1;33m] \e[0m'
+   echo -e ""
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m'
+      echo -e "\e[93m    |O|n|l|i|n|e| |H|a|c|k|i|n|g|"      
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m' 
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m'
+      echo -e "\e[95m    |S|U|M|A|N|"      
+      echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m' 
+      echo -e ""                                                
+      }
+      
