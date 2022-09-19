@@ -56,4 +56,4 @@ url_checker $phish
 	printf "${green}OnlineHacking ${white}>> ${white}Don't use space in your words\n"
         read -p $'\e[1;92mOnlineHacking \033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words
         final_url=$mask-$words@$shorter
-	echo -e "Here is the Masking OH URL:\e[32m ${final_url} \e[0m\n"
+	printf "$final_url\n"
