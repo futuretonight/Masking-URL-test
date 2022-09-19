@@ -73,23 +73,17 @@ Usage of MaskPhish for attacking targets without prior mutual consent is illegal
 * Windeos
 
 
-### REQUIREMENTS :
-
-* Fast internet
-
-* php
-
-* ngrok token
-
-* apache2
-
 ### FEATURES :
 
-* [+] Real hacking of Account !
+* [+] Real Domain !
+
+* [+] Custom URL & Link !
+
+* [+] Support All URL & Link !
 
 * [+] Updated maintainence !
 
-* [+] Custom link !
+* [+] Customise Link !
 
 * [+] Easy for Beginners !
 
