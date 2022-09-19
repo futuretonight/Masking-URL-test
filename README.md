@@ -43,7 +43,10 @@ cd Masking-URL
 chmod +x *
 ```
 ```
-bash Masking-OH.sh
+bash Masking
+```
+```
+bash Masking.sh
 ```
 
 
