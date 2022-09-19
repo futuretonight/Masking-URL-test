@@ -34,7 +34,7 @@ echo -e " \e[92m                    ║ ║\e[95m││││  ││││├�
 echo -e " \e[92m                    ╚═╝\e[95m┘└┘┴─┘┴┘└┘└─┘ \e[94m ╩ ╩\e[95m┴ ┴└─┘┴ ┴┴┘└┘└─┘ \e[32m "
 echo ""
 echo "" 
-echo -e 'Paste Phishing URL here (with http or https): '
+echo -e 'Paste Phishing URL here \e[96m(with http or https):\e[0m '
 echo -en "\e[32m=>\e[0m "
 read phish
 url_checker $phish
