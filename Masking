@@ -34,7 +34,7 @@ echo -e " \e[92m                 ║ ║\e[95m││││  ││││├┤  
 echo -e " \e[92m                 ╚═╝\e[95m┘└┘┴─┘┴┘└┘└─┘ \e[94m ╩ ╩\e[95m┴ ┴└─┘┴ ┴┴┘└┘└─┘ \e[32m "
 echo -e ""
 echo -e "" 
-echo -e ' \e[91m[\e[92m★\e[91m] \e[32mPaste Phishing URL here \e[96m(with http or https):\e[0m '
+echo -e ' \e[91m[\e[92m★\e[91m] \e[32mPaste Phishing URL/Link here \e[96m(with http or https):\e[0m '
 echo -en "\e[32m =>\e[0m "
 read phish
 url_checker $phish
@@ -60,6 +60,6 @@ echo -e " \e[32m+=>\e[95m Generating Masking Link by Online Hacking .......\e[0m
 sleep 5
 echo -e ""
 final=$mask-$words@$shorter
-echo -e " \e[91m[\e[92m★\e[91m] \e[93mYour Masking URL:\e[32m ${final} \e[0m\n"
+echo -e " \e[91m[\e[92m★\e[91m] \e[93mYour Masking URL/Link:\e[32m ${final} \e[0m\n"
 echo -e ""
 echo -e ""
