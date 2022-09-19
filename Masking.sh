@@ -17,12 +17,12 @@ echo -e " \e[91m   ║ \e[93m ████  ████ ██   █�
 echo -e " \e[91m   ║ \e[93m ██ ████ ██ ███████ ███████ █████   ██ ██ ██  ██ ██   ███ \e[91m║ "
 echo -e " \e[91m   ║ \e[93m ██  ██  ██ ██   ██      ██ ██  ██  ██ ██  ██ ██ ██    ██ \e[91m║ "
 echo -e " \e[91m   ║ \e[93m ██      ██ ██   ██ ███████ ██   ██ ██ ██   ████  ██████  \e[91m║ \e[33mSUMAN"
-echo -e " \e[96m   ╚═══════════════════════════════════════════════════════════╝  \e[33mV2.1 "
+echo -e " \e[96m   ╚═══════════════════════════════════════════════════════════╝  \e[33mV2.2 "
 echo ""
 echo ""
-echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mYouTube  \e[1;91m= \e[5m \e[1;97mOnline Hacking  "
+echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite  \e[1;91m= \e[5m \e[1;97mwww.termux.xyz  "
 echo ""
-echo -e " \e[5m         \e[25m \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite  \e[1;91m=  \e[4m\e[1;97mwww.OnlineHacking.xyz\e[24m   "
+echo -e " \e[5m         \e[25m \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mWebsite  \e[1;91m=  \e[4m\e[1;97mwww.OnlineHacking.in\e[24m   "
 echo ""
 echo -e " \e[1m          \e[1;91m [\e[1;96m*\e[1;91m] \e[1;97mTelegram \e[5m\e[1;91m=  \e[1;97m@OnlineHacking   \e[93m   "
 echo ""
@@ -33,10 +33,11 @@ echo -e " \e[92m                    ╚═╝\e[95m┘└┘┴─┘┴┘└�
 echo ""
 echo "" 
 echo -n "Paste Phishing URL here (with http or https): "
+echo -en "\e[32m=>\e[0m "
 read phish
 url_checker $phish
-sleep 1
 echo "Processing and Modifing Phishing URL"
+sleep 3
 echo ""
 short=$(curl -s https://da.gd/s/?url=${phish})
 shorter=${short#https://}
@@ -49,6 +50,7 @@ echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, free
 echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
-echo -e "\n\e[95mGenerating Masking Online Hacking Link...\e[0m\n"
+echo -e "\n\e[95mGenerating Masking by Online Hacking Link...\e[0m\n"
+sleep 4
 final=$mask-$words@$shorter
-echo -e "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
+echo -e "Here is the Masking URL:\e[32m ${final} \e[0m\n"
