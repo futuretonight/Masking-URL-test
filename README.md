@@ -1,20 +1,99 @@
+<h1 align="center">Masking URL - OnlineHacking</h1>
 <p align="center">
-  <img src="https://i.pinimg.com/originals/54/19/02/541902f716f7edd427cfa5a9e1230be6.png">  
+  Free Fire ID Hack Use Termux
+</p>
+<p align="center">
+<a href="https://www.onlinehacking.in/free-fire-account-hack-phishing-tool-with-termux"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 
-<h1 align="center">Ngrok Custom URL - OnlineHacking</h1>
-<p align="center">
-  Masking URL
 </p>
 
-<a href="https://t.me/OnlineHacking"><img src="https://img.shields.io/badge/telegram-Mr.Suman || OnlineHacking-blue.svg">
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-2.2-blue?style=for-the-badge&color=blue">
+     <img src="https://img.shields.io/github/stars/OnlineHacKing/Masking-URL?style=for-the-badge&color=magenta">
+  <img src="https://img.shields.io/github/forks/OnlineHacKing/Masking-URL?color=cyan&style=for-the-badge&color=purple">
+  <img src="https://img.shields.io/github/issues/OnlineHacKing/Masking-URL?color=red&style=for-the-badge">
+    <img src="https://img.shields.io/github/license/OnlineHacKing/Masking-URL?style=for-the-badge&color=blue">
+<br>
+    <img src="https://img.shields.io/badge/Author-SUMAN-green?style=flat-square">
+    <img src="https://img.shields.io/badge/Open%20Source-No-orange?style=flat-square">
+    <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-Shell-blue?style=flat-square">
+</p>
+
+<p align="center">
+<a href="https://www.onlinehacking.in/free-fire-account-hack-phishing-tool-with-termux"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-FreeFirePhishing-green.svg"></a>
+<a href="https://www.onlinehacking.in/free-fire-account-hack-phishing-tool-with-termux"><img title="Version" src="https://img.shields.io/badge/Version-2.2-green.svg?style=flat-square"></a>
+<a href="https://www.onlinehacking.in/free-fire-account-hack-phishing-tool-with-termux"><img title="Maintainence" src="https://img.shields.io/badge/Admin-SUMAN-green.svg"></a>
+</p>
+
+<p align="center">
+
+![unnamed (2)](https://1.bp.blogspot.com/-dN4Q-GH7qjI/YJKftXvJ3UI/AAAAAAAAFkY/LYAktGR4MlY2kc6DBgHP2t3fJBH9t_vxACLcBGAsYHQ/s1922/2-min.jpg)
+
+</p>
 
 
-### MAINTAINERS
-* **SUMAN MONDAL**| 
-Twitter: <a href="https://twitter.com/suman333mondal">@suman333mondal</a>
-Github: <a href="https://github.com/OnlineHacking">@OnlineHacking</a>
-Telegram: <a href="https://t.me/OnlineHacking">@OnlineHacking</a>
+## 🔥 ABOUT Masking-URL :
+
+Masking-URL is not any Phishing tool. It's just a proof of concept of "URL Making Technology". It is a simple Bash Script to hide any URL under a normal looking URL (google.com or facebook.com). It can be integrated into Phishing tools (with proper credits) to look the URL ledgit.
+
+## ⚖️ Legal Disclaimer:
+**FOR EDUCATIONAL PURPOSES ONLY** <br />
+Usage of MaskPhish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Use Responsibly!
+
+
+### AVAILABLE ON :
+
+* Termux App
+
+* Kali Linux
+
+* Parrot OS
+
+* Ubuntu
+
+* Windeos
+
+* Arch Linux
+
+* MAC
+
+### TESTED ON :
+
+* Termux App
+
+* Kali Linux
+ 
+* Parrot OS
+ 
+* Ubuntu
+
+* Windeos
+
+
+### REQUIREMENTS :
+
+* Fast internet
+
+* php
+
+* ngrok token
+
+* apache2
+
+### FEATURES :
+
+* [+] Real hacking of Account !
+
+* [+] Updated maintainence !
+
+* [+] Custom link !
+
+* [+] Easy for Beginners !
+
+
 
 
 
@@ -51,52 +130,45 @@ bash Masking.sh
 
 
 
-## Video Tutorials
+### 🎥 WATCH VIDEO 
 
-[Video](https://youtu.be/g8GF7n0O_LI)
-
-
+<p align="center"> <a href="https://play.onlinehacking.xyz/v/ZIwSEz"><img title="Made in INDIA" width="58%" src="https://www.onlinehacking.in/wp-content/uploads/2021/12/play-.webp"></a>
 
 
+### 📸 SCREENSHOTS [Termux]
 
-<a href="https://github.com/OnlineHacking/"><img src="https://user-images.githubusercontent.com/64035221/96459220-834c7e00-123f-11eb-8417-534058a7ba62.png" alt="GitHub" width="110" height="110">
-<a href="https://www.youtube.com/onlinehacking"><img src="https://user-images.githubusercontent.com/64035221/96456596-4f238e00-123c-11eb-821e-85e9aaa3faec.png" alt="YouTube" width="110" height="110">
-<a href="https://t.me/Onlinehacking"><img src="https://user-images.githubusercontent.com/64035221/96461243-c576bf00-1241-11eb-8fdf-139b4859bfb0.png" alt="Telegram" width="80" height="80">
-<a href="https://www.instagram.com/suman333mondal_/"><img src="https://user-images.githubusercontent.com/64035221/96461629-3d44e980-1242-11eb-8691-46dd14355085.png" alt="Instagram" width="90" height="90">
-  
+<br>
+<p align="center">
+<img width="40%" src="https://i.pinimg.com/564x/99/5e/4d/995e4dcb94133d3c74597bed932288fb.jpg"/>
+</p>
+<br>
+<p align="center">
+<img width="41%" src="https://i.pinimg.com/564x/b1/1f/76/b11f769cb43a768fcbdeb509477e7086.jpg"/>
+<img width="40%" src="https://i.pinimg.com/564x/8c/6e/b6/8c6eb6035fb6ba53deb1c47c77e0c6a0.jpg"/>
+</p>
 
-### Subscribe our channel on youtube
-https://www.youtube.com/channel/UCwREEQuPIk7EtaRrZBVvDwg?view_as=subscriber&pbjreload=101
 
-### Chekout our webite 
-www.onlinehacking.xyz
 
-# ■□■□■□■□■□■□ Warning □■□■□■□■□■□■
+## 👨🏻‍💻 CONNECT WITH US :
+
+
+<a href="https://github.com/OnlineHacKing"><img title="Github" src="https://img.shields.io/badge/Online-hacking-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/suman333mondal/)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.onlinehacking.xyz)
+[![Instagram](https://img.shields.io/badge/LINKEDIN-CONNECT-red?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sumam333mondal/)
+[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://fb.com/adminonlinehacking)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://telegram.dog/OnlineHacking)
+<a href="https://www.youtube.com/channel/UC8pmZJAlagdZ7bb0TBlogYw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Online Hacking-red?style=for-the-badge&logo=Youtube"></a>
+
+
+# ■□■ ⚠ Warning ⚠ ■□■
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
 
 ***This information is only for educationla purpose and we are not responsible for any kind of illegal activity done by this tool***
 
 
-# ■□■□■□■□■□■□ Social Media □■□■□■□■□■□■
-
-Website :- http://www.onlinehacking.xyz
-
-YouTube Channel :- https://bit.ly/on9youtube
-
-Telegram Change :- https://t.me/OnlineHacking
-
-Telegram Group :- https://t.me/OnlineHacking0
-
-Github :- https://github.com/OnlineHacKing
-
-Facebook :-  https://bit.ly/facebook4page
-
-Twitter :- https://bit.ly/twittersuman
-
-Instagram :- https://bit.ly/instagram9oh
-
-<a href="https://t.me/OnlineHacking"><img src="https://img.shields.io/badge/telegram-Ms.Suman || OnlineHacking-blue.svg">
+<p style="box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; margin-bottom: 16px; margin-top: 0px; text-align: center;"><a href="https://github.com/OnlineHacking/" style="background-color: initial; box-sizing: border-box; text-decoration-line: none;"><img alt="GitHub" height="110" src="https://user-images.githubusercontent.com/64035221/96459220-834c7e00-123f-11eb-8417-534058a7ba62.png" style="background-color: var(--color-bg-primary); border-style: none; box-sizing: initial; max-width: 100%;" width="110" />&nbsp;</a><a href="https://www.youtube.com/channel/UC8pmZJAlagdZ7bb0TBlogYw" rel="nofollow" style="background-color: initial; box-sizing: border-box; text-decoration-line: none;"><img alt="YouTube" height="110" src="https://user-images.githubusercontent.com/64035221/96456596-4f238e00-123c-11eb-821e-85e9aaa3faec.png" style="background-color: var(--color-bg-primary); border-style: none; box-sizing: initial; max-width: 100%;" width="110" />&nbsp;</a><a href="https://telegram.dog/OnlineHacking" rel="nofollow" style="background-color: initial; box-sizing: border-box; text-decoration-line: none;"><img alt="Telegram" height="80" src="https://user-images.githubusercontent.com/64035221/96461243-c576bf00-1241-11eb-8fdf-139b4859bfb0.png" style="background-color: var(--color-bg-primary); border-style: none; box-sizing: initial; max-width: 100%;" width="80" />&nbsp;</a><a href="https://www.instagram.com/suman333mondal/" rel="nofollow" style="background-color: initial; box-sizing: border-box; text-decoration-line: none;"><img alt="Instagram" height="90" src="https://user-images.githubusercontent.com/64035221/96461629-3d44e980-1242-11eb-8691-46dd14355085.png" style="background-color: var(--color-bg-primary); border-style: none; box-sizing: initial; max-width: 100%;" width="90" /></a></p>
 
 
                                        Inspired By github.com/OnlineHacking
