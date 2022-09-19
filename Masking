@@ -39,7 +39,7 @@ echo -en "\e[32m=>\e[0m "
 read phish
 url_checker $phish
 echo ""
-echo -e "\e[95mProcessing and Modifing Phishing URL\e[0m"
+echo -e "\e[96mProcessing and Modifing Phishing URL\e[0m"
 sleep 3
 echo ""
 short=$(curl -s https://da.gd/s/?url=${phish})
