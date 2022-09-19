@@ -32,14 +32,14 @@ echo -e " \e[92m                    ║ ║\e[95m││││  ││││├�
 echo -e " \e[92m                    ╚═╝\e[95m┘└┘┴─┘┴┘└┘└─┘ \e[94m ╩ ╩\e[95m┴ ┴└─┘┴ ┴┴┘└┘└─┘ \e[32m "
 echo ""
 echo "" 
-echo -n "Paste Phishing URL here (don't add http or https): "
+echo -n "Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
 sleep 1
 echo "Processing and Modifing Phishing URL"
 echo ""
-short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${phish})
-shorter=${phish#https://}
+short=$(curl -s https://da.gd/s/?url=${phish})
+shorter=${short#https://}
 echo -e ""
 echo -e 'Domain to mask the Phishing URL \e[91m(Ex:\e[96m https://google.com , http://anything.org)\e[0m :'
 echo -en "\e[32m=>\e[0m "
@@ -50,5 +50,5 @@ echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0
 echo -en "\e[32m=>\e[0m "
 read words
 echo -e "\n\e[95mGenerating Masking Online Hacking Link...\e[0m\n"
-final=$mask-$words@$phish-@shorter
+final=$mask-$words@$shorter
 echo -e "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
