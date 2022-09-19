@@ -41,11 +41,11 @@ echo ""
 short=$(curl -s https://da.gd/s/?url=${phish})
 shorter=${short#https://}
 echo -e ""
-echo -e 'Domain to mask the Phishing URL \e[91m(Ex:\e[96m https://google.com , http://anything.org)\e[0m :'
+echo -e 'Domain to mask the Phishing URL \e[91m(Ex:\e[96m https://google.com , http://facebook.com)\e[0m :'
 echo -en "\e[32m=>\e[0m "
 read mask
 url_checker $mask
-echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, best-pubg-tricks)'
+echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, free-insta-followers)'
 echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0m"
 echo -en "\e[32m=>\e[0m "
 read words
