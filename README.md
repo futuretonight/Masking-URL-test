@@ -1,3 +1,11 @@
+# Using Tutorial : https://termux.xyz/how-to-hide-and-charge-ngrok-cloudflare-link-in-termux-linux/
+
+
+  <p>&nbsp;</p><p><br /></p><p><br /></p><p><br /></p>
+  <p>&nbsp;</p>
+
+
+
 <h1 align="center">Masking URL - OnlineHacking</h1>
 <p align="center">
   Free Fire ID Hack Use Termux
@@ -93,34 +101,10 @@ Usage of Masking-URL for attacking targets without prior mutual consent is illeg
 
 # ■□■□■□■□■□■□ Commands □■□■□■□■□■□■
 
-### ☣️ Installation and Usage Guide
-```
-apt-get update
-```
-```
-apt-get upgrade
-```
-```
-pkg install git
-```
-```
-git clone https://github.com/OnlineHacKing/Masking-URL
-```
-```
-ls
-```
-```
-cd Masking-URL
-```
-```
-chmod +x *
-```
-```
-bash Masking
-```
-```
-bash Masking.sh
-```
+## ☣️ Installation and Usage Guid
+
+### Using Tutorial : https://termux.xyz/how-to-hide-and-charge-ngrok-cloudflare-link-in-termux-linux/
+<p><br /></p>
 
 
 
